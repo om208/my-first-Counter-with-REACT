@@ -12,7 +12,8 @@ const IntractiveView = ({ value, onAction, actionText }) => {
   );
 };
 
-//we build reusable component for view of counter [above component]
+// we build reusable component for view of counter [above component]
+// this reusable component called Generic view
 
 const Counter = () => {
   let [counter, setCounter] = React.useState(0);
