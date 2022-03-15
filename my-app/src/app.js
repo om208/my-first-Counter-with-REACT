@@ -1,5 +1,6 @@
 import React from "react";
 import Counter from "./counter";
+import Decrement from "./decrement";
 import Random from "./random";
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <React.Fragment>
       <Counter />
       <Random />
+      <Decrement/>
     </React.Fragment>
   );
 };
