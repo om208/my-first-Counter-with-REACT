@@ -1,16 +1,5 @@
 import React from "react";
-const IntractiveView = ({ value, onAction, actionText }) => {
-  // return view of counter
-  return (
-    <React.Fragment>
-      <p>{value}</p>
-
-      <button type="button" onClick={onAction}>
-        {actionText}
-      </button>
-    </React.Fragment>
-  );
-};
+import IntractiveView from "./intractiveView";
 
 // we build reusable component for view of counter [above component]
 // this reusable component called Generic view
